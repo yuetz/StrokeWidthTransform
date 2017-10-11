@@ -5,7 +5,7 @@ swt: 基于笔画宽度检测文字
 参考： https://github.com/mypetyak/StrokeWidthTransform
 
 ## 详见论文
-["Detecting Text in Natural Scenes with Stroke Width Transform"]（http://cmp.felk.cvut.cz/~cernyad2/TextCaptchaPdf/Detecting%20Text%20in%20Natural%20Scenes%20with%20Stroke%20Width%20Transform.pdf）
+["Detecting Text in Natural Scenes with Stroke Width Transform"](http://cmp.felk.cvut.cz/~cernyad2/TextCaptchaPdf/Detecting%20Text%20in%20Natural%20Scenes%20with%20Stroke%20Width%20Transform.pdf)
 
 ## 缺点：耗内存，速度慢，检测结果不好, 代码待改进
 
