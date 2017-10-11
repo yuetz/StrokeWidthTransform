@@ -4,10 +4,13 @@ swt: 基于笔画宽度检测文字
 
 参考： https://github.com/mypetyak/StrokeWidthTransform
 
-详见论文
-"Detecting Text in Natural Scenes with Stroke Width Transform"（http://cmp.felk.cvut.cz/~cernyad2/TextCaptchaPdf/Detecting%20Text%20in%20Natural%20Scenes%20with%20Stroke%20Width%20Transform.pdf）
-缺点：耗内存，速度慢，检测结果不好, 代码待改进
-步骤：
+## 详见论文
+["Detecting Text in Natural Scenes with Stroke Width Transform"]（http://cmp.felk.cvut.cz/~cernyad2/TextCaptchaPdf/Detecting%20Text%20in%20Natural%20Scenes%20with%20Stroke%20Width%20Transform.pdf）
+
+## 缺点：耗内存，速度慢，检测结果不好, 代码待改进
+
+## 步骤：
+
 1. 使用canny 边缘检测算子提取图像的边缘
 2. 计算图像的x向和y向导数，即图像的梯度。每个像素的梯度表明了最大对比度的方向。对于边缘像素，像素的梯度和边缘的法向量是等价的
 3. 对于每个边缘像素，沿着梯度θ的方向移动，直到遇到下一个边缘像素。如果对应的边缘像素的梯度指向了相反的方向（θ - π），
